@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Imaginary Friends</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Nunito:wght@500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
+   </head>
+   <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+      <script src="index.js"></script>
+      <div id="load-screen"></div>
+      <div id="container">
+         <div id="text-container">
+            <h1 id="ones">ONES</h1>
+            <h2 id="imaginary">Imaginary</h2>
+         </div>
+         <div id="imaginary-one">
+            <!-- RAINBOW HAT -->
+            <div id="rainbow">
+               <div class="rainbow-row" id="rainbow-red"></div>
+               <div class="rainbow-row" id="rainbow-orange"></div>
+               <div class="rainbow-row" id="rainbow-yellow"></div>
+               <div class="rainbow-row" id="rainbow-green"></div>
+               <div class="rainbow-row" id="rainbow-blue"></div>
+               <div class="rainbow-row" id="rainbow-indigo"></div>
+               <div class="rainbow-row" id="rainbow-violet"></div>
+               <div id="rainbow-invisible-square"></div>
+               <div id="rainbow-invisible-circle" class="rainbow-row"></div>
+            </div>
+            <!-- HEAD -->
+            <div id="head">
+               <div id="right-eye" class="eye" ></div>
+               <div id="left-eye" class="eye"> </div>
+               <div id="mouth">
+                  <div id="mouth-invisible"> </div>
+                  <div id="mouth-visible"> </div>
+               </div>
+            </div>
+            <!-- BODY-->
+            <div id="body">
+               <div id="right-arm" class="arm body-part"></div>
+               <div id="torso" class="body-part"> </div>
+               <div id="left-arm" class="arm body-part"> 
+               </div>
+               <div id="right-leg" class="leg body-part">
+                  <div id="right-shoe" class="shoe">
+                     <div class="shoe-back"></div>
+                     <div class="shoe-bottom">
+                        <div class="shoe-tag"></div>
+                     </div>
+                     <div class="shoe-top"></div>
+                     <div class="lace"></div>
+                  </div>
+               </div>
+               <div id="left-leg" class="leg body-part">
+                  <div id="left-shoe" class="shoe">
+                     <div class="shoe-back"></div>
+                     <div class="shoe-bottom">
+                        <div class="shoe-tag"></div>
+                     </div>
+                     <div class="shoe-top"></div>
+                     <div class="lace"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <button id="scramble">SCRAMBLE</button>
+         <button id="assemble">ASSEMBLE</button>
+      </div>
+      </div>
+      </div>
+   </body>
+</html>
+
