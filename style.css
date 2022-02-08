@@ -397,3 +397,11 @@ button:hover {
 		transform: translate3d(4px, 0, 0);
 	}
 }
+
+#disclaimer{   
+	font-size: 10px;
+    color: grey;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+}
